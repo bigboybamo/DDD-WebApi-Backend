@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KGDBQQiIAHaw4TTHv/84ik5NDGSEBcdyxrLB3q/Q7ryBCOyf27OSIjyltS194q6nOWavl2hi+InGVvK6V+ioRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oyetuboio\\source\\repos\\PerfumeAppHahnAssessment\\Perfume.ApplicationCore\\Perfume.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

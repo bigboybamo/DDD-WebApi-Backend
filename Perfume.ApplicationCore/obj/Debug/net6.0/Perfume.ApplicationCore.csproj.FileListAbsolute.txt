@@ -1,0 +1,12 @@
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\bin\Debug\net6.0\Perfume.ApplicationCore.deps.json
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\bin\Debug\net6.0\Perfume.ApplicationCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\bin\Debug\net6.0\Perfume.ApplicationCore.pdb
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.AssemblyInfo.cs
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\refint\Perfume.ApplicationCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\Perfume.ApplicationCore.pdb
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.ApplicationCore\obj\Debug\net6.0\ref\Perfume.ApplicationCore.dll

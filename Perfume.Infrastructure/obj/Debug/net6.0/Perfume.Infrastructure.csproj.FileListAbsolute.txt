@@ -1,0 +1,15 @@
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\bin\Debug\net6.0\Perfume.Infrastructure.deps.json
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\bin\Debug\net6.0\Perfume.Infrastructure.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\bin\Debug\net6.0\Perfume.Infrastructure.pdb
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\bin\Debug\net6.0\Perfume.ApplicationCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\bin\Debug\net6.0\Perfume.ApplicationCore.pdb
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.AssemblyInfo.cs
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.csproj.CopyComplete
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\refint\Perfume.Infrastructure.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\Perfume.Infrastructure.pdb
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.Infrastructure\obj\Debug\net6.0\ref\Perfume.Infrastructure.dll
