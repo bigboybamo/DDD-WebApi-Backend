@@ -13,9 +13,10 @@ namespace Perfume.ApplicationCore.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        [MaxLength(30)]
+        [Required]
         public string? Name { get; set; }
 
+        [Required]
         public string? Brand { get; set; }
         public DateTime CreatedOn { get; set; }
 

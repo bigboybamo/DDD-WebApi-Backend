@@ -65,3 +65,6 @@ C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debu
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Perfume.Infrastructure.pdb
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

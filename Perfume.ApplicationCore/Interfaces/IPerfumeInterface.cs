@@ -1,4 +1,5 @@
 ﻿using Perfume.ApplicationCore.DTOs;
+using Perfume.ApplicationCore.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

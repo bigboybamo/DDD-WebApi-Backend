@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Mvc;
 using Perfume.ApplicationCore.DTOs;
+using Perfume.ApplicationCore.Entities;
 using Perfume.ApplicationCore.Exceptions;
 using Perfume.ApplicationCore.Interfaces;
+using Perfume.WebApi.Validators;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 
 namespace Perfume.WebApi.Controllers
 {
@@ -11,9 +15,11 @@ namespace Perfume.WebApi.Controllers
     public class PerfumeController : Controller
     {
         private readonly IPerfumeInterface perfumeRepository;
-        public PerfumeController(IPerfumeInterface perfumeRepository)
+        private readonly PerfumeValidator perfumeValidator;
+        public PerfumeController(IPerfumeInterface perfumeRepository, PerfumeValidator perfumeValidator)
         {
             this.perfumeRepository = perfumeRepository;
+            this.perfumeValidator = perfumeValidator;
         }
 
 
@@ -38,9 +44,21 @@ namespace Perfume.WebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(CreatePerfumeRequest request)
-        {
+        public ActionResult Create([FromBody] CreatePerfumeRequest request)
+{
+
+            var validationResult = perfumeValidator.Validate(request);
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult);
+
+                // re-render the view when validation failed.
+                //return View(model);
+            }
+
             var product = this.perfumeRepository.CreatePerfume(request);
+
             return Ok(product);
         }
 

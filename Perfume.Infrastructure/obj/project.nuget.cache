@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "RKG2ZKSWuQNhxKghZ7QcOnXSh3e46HruGFFCOMM/7UCi0Ma4EpPjE2JGKaaoNT33aHrFnxthH6lAG3+qxv80bQ==",
+  "dgSpecHash": "mkcZVdLoN3fQP7qw+UjNFQoQX3vvxfZTkx+F6eUY0duM7REXDg11w8VfiTwXcn1TYpqGo62qLcQiouAicddDrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Oyetuboio\\source\\repos\\PerfumeAppHahnAssessment\\Perfume.Infrastructure\\Perfume.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oyetuboio\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Oyetuboio\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\Oyetuboio\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Oyetuboio\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

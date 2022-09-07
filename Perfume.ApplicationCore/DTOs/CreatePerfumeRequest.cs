@@ -10,7 +10,6 @@ namespace Perfume.ApplicationCore.DTOs
     public class CreatePerfumeRequest
     {
         [Required]
-        [StringLength(30, MinimumLength = 3)]
         public string? Name { get; set; }
 
         [Required]
