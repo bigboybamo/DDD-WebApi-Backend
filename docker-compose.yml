@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+    perfume.webapi:
+    webapi:
+        build:
+          context: .
+          dockerfile: Perfume.WebApi\Dockerfile
+        ports:
+          - "8080:80"
+
+   
+ 
