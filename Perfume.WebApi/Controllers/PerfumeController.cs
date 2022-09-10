@@ -1,5 +1,7 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using Perfume.ApplicationCore.DTOs;
 using Perfume.ApplicationCore.Entities;
 using Perfume.ApplicationCore.Exceptions;
@@ -7,6 +9,7 @@ using Perfume.ApplicationCore.Interfaces;
 using Perfume.WebApi.Validators;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
+using System.Text.Json;
 
 namespace Perfume.WebApi.Controllers
 {
@@ -16,10 +19,12 @@ namespace Perfume.WebApi.Controllers
     {
         private readonly IPerfumeInterface perfumeRepository;
         private readonly PerfumeValidator perfumeValidator;
-        public PerfumeController(IPerfumeInterface perfumeRepository, PerfumeValidator perfumeValidator)
+        private readonly ILogger<PerfumeController> _logger;
+        public PerfumeController(IPerfumeInterface perfumeRepository, PerfumeValidator perfumeValidator, ILogger<PerfumeController> _logger)
         {
             this.perfumeRepository = perfumeRepository;
             this.perfumeValidator = perfumeValidator;
+            this._logger = _logger;
         }
 
 
@@ -34,7 +39,11 @@ namespace Perfume.WebApi.Controllers
         {
             try
             {
+                
                 var product = this.perfumeRepository.GetPerfumeById(id);
+
+                string res = JsonConvert.SerializeObject(product);
+                _logger.LogInformation("Response = " + res);
                 return Ok(product);
             }
             catch (NotFoundException)
@@ -46,6 +55,7 @@ namespace Perfume.WebApi.Controllers
         [HttpPost]
         public ActionResult Create([FromBody] CreatePerfumeRequest request)
 {
+            _logger.LogInformation("Request = " + JsonConvert.SerializeObject(request));
 
             var validationResult = perfumeValidator.Validate(request);
 
@@ -59,6 +69,9 @@ namespace Perfume.WebApi.Controllers
 
             var product = this.perfumeRepository.CreatePerfume(request);
 
+            string res = JsonConvert.SerializeObject(product);
+            _logger.LogInformation("Response = " + res);
+
             return Ok(product);
         }
 
@@ -69,6 +82,8 @@ namespace Perfume.WebApi.Controllers
             
             try
             {
+                _logger.LogInformation("Request = " + JsonConvert.SerializeObject(request));
+
                 var validationResult = perfumeValidator.Validate(request);
 
                 if (!validationResult.IsValid)
@@ -79,6 +94,7 @@ namespace Perfume.WebApi.Controllers
                     //return View(model);
                 }
                 var product = this.perfumeRepository.UpdatePerfume(id, request);
+                _logger.LogInformation("Response = " + JsonConvert.SerializeObject(product));
                 return Ok(product);
             }
             catch (NotFoundException)

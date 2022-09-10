@@ -68,3 +68,14 @@ C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debu
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\Oyetuboio\source\repos\PerfumeAppHahnAssessment\Perfume.WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
