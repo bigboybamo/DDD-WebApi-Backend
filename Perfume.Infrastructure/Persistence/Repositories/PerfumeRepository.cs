@@ -28,6 +28,7 @@ namespace Perfume.Infrastructure.Persistence.Repositories
         {
             var product = this.mapper.Map<PerfumeModel>(request);
             product.CreatedOn = DateUtil.GetCurrentDate();
+            product.UpdatedOn = DateUtil.GetCurrentDate();
 
             this.storeContext.Products.Add(product);
             this.storeContext.SaveChanges();
@@ -64,5 +65,23 @@ namespace Perfume.Infrastructure.Persistence.Repositories
         {
             return this.storeContext.Products.Select(p => this.mapper.Map<PerfumeResponse>(p)).ToList();
         }
+
+        public PerfumeResponse UpdatePerfume(int perfumeId, UpdatePerfumeRequest request)
+    {
+        var product = this.storeContext.Products.Find(perfumeId);
+        if (product != null)
+        {
+            product.Name = request.Name;
+            product.Brand = request.Brand;
+           product.UpdatedOn = DateUtil.GetCurrentDate();
+
+                this.storeContext.Products.Update(product);
+            this.storeContext.SaveChanges();
+
+            return this.mapper.Map<PerfumeResponse>(product);
+        }
+
+        throw new NotFoundException();
     }
+}
 }

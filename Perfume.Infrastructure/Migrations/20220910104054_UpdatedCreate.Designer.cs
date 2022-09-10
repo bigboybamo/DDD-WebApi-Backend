@@ -12,8 +12,8 @@ using Perfume.Infrastructure.Persistence.Contexts;
 namespace Perfume.Infrastructure.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20220907123029_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220910104054_UpdatedCreate")]
+    partial class UpdatedCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,17 +33,18 @@ namespace Perfume.Infrastructure.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Brand")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("isDiscontinued")
-                        .HasColumnType("bit");
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 

@@ -62,6 +62,33 @@ namespace Perfume.WebApi.Controllers
             return Ok(product);
         }
 
+
+        [HttpPut("{id}")]
+        public ActionResult Update(int id, UpdatePerfumeRequest request)
+        {
+            
+            try
+            {
+                var validationResult = perfumeValidator.Validate(request);
+
+                if (!validationResult.IsValid)
+                {
+                    return BadRequest(validationResult);
+
+                    // re-render the view when validation failed.
+                    //return View(model);
+                }
+                var product = this.perfumeRepository.UpdatePerfume(id, request);
+                return Ok(product);
+            }
+            catch (NotFoundException)
+            {
+                return NotFound();
+            }
+        }
+
+
+
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {

@@ -20,7 +20,7 @@ namespace Perfume.ApplicationCore.Entities
         public string? Brand { get; set; }
         public DateTime CreatedOn { get; set; }
 
-        public bool isDiscontinued { get; set; }
-        
+        public DateTime UpdatedOn { get; set; }
+
     }
 }

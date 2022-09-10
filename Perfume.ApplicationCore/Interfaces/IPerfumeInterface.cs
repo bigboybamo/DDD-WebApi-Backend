@@ -17,5 +17,7 @@ namespace Perfume.ApplicationCore.Interfaces
         void DeletePerfumeById(int perfumeid);
 
         PerfumeResponse CreatePerfume(CreatePerfumeRequest request);
+
+        PerfumeResponse UpdatePerfume(int perfumeId, UpdatePerfumeRequest request);
     }
 }
